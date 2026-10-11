@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Arlene Jane's Lucan Journey - Creative Designer & Visual Storyteller. Explore my portfolio of branding, UI/UX, and illustration projects." />
+  <title>Arlene Jane's Lucan Journey | Creative Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="#hero" class="logo">
+        <span class="logo-icon">✿</span> Arlene Jane
+      </a>
+      <ul class="nav-list" id="nav-list">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#activities" class="nav-link">Activities</a></li>
+        <li><a href="#reflection" class="nav-link">Reflection</a></li>
+        <li><a href="#photos" class="nav-link">Photos</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <img src="assets/hero.jpg" alt="Pink abstract background" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content fade-in">
+      <p class="hero-sub">Welcome to my world ✦</p>
+      <h1 class="hero-title">Arlene Jane's<br/><span class="gradient-text">Lucan Journey</span></h1>
+      
+      <div class="hero-buttons">
+        <a href="#photos" class="btn-primary" id="view-work-btn">View My Photos</a>
+        <a href="#about" class="btn-outline" id="learn-more-btn">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow"></div>
+    </div>
+    <!-- Floating decorations -->
+    <div class="floating-heart heart-1">♡</div>
+    <div class="floating-heart heart-2">✿</div>
+    <div class="floating-heart heart-3">◇</div>
+    <div class="floating-heart heart-4">♡</div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-label">✦ Get to Know Me ✦</div>
+      <h2 class="section-title">About Me</h2>
+
+      <div class="about-wrapper">
+        <!-- Profile Card -->
+        <div class="profile-card fade-in-left">
+          <div class="profile-img-wrapper">
+            <img src="assets/prof.jpg" alt="Arlene Jane" class="profile-img" />
+            <div class="profile-img-ring"></div>
+            <div class="profile-badge">✦ I'm Kim</div>
+          </div>
+
+        </div>
+
+        <!-- About Text -->
+        <div class="about-text fade-in-right">
+          <span class="about-greeting">Hello, I'm</span>
+          <h3 class="about-name">Arlene Jane S. Calacat</h3>
+
+
+          <p class="about-bio">
+            Welcome to <strong>Arlene Jane's Lucan Journey</strong> — a personal space that shares my experiences, 
+            creativity, and growth throughout my journey at Lucan. As a student,
+             I enjoy exploring my creativity, learning new skills, and discovering
+              experiences that help me grow both personally and academically.
+          </p>
+          <p class="about-bio">
+            I am a simple, curious, and passionate person. I love learning new things,
+             meeting different people, and making meaningful connections. I enjoy spending
+              time with my two cats, Leo and Ace, and my dog, Chakoy. They are a special
+              part of my life and bring me so much happiness. I value family, friendship,
+              personal growth, and the little things that make life meaningful. — it <em>tells a story</em>.
+          </p>
+
+          
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Activities Section -->
+  <section id="activities" class="activities section">
+    <span class="ac-deco ac-d1" aria-hidden="true">✿</span>
+    <span class="ac-deco ac-d2" aria-hidden="true">♡</span>
+    <span class="ac-deco ac-d3" aria-hidden="true">✦</span>
+    <span class="ac-deco ac-d4" aria-hidden="true">✿</span>
+    <div class="container">
+      <div class="section-label">✦ Moments That Matter ✦</div>
+      <h2 class="section-title">Activities</h2>
+      <p class="activities-sub">Teachers' Day ♡</p>
+
+      <div class="carousel fade-in" id="activity-carousel" role="region" aria-roledescription="carousel" aria-label="Teachers' Day photos">
+        <button type="button" class="carousel-btn carousel-prev" aria-label="Previous slide">&#8249;</button>
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+          <article class="activity-card carousel-slide" tabindex="0" role="button" aria-label="Open photo: Celebrating Our Teachers">
+            <img src="assets/t4.jpg" alt="Teachers' Day photo 1" class="activity-image" />
+            <span class="slide-count">01 / 05</span>
+            <div class="activity-card-content">
+              <span class="activity-tag">Teachers' Day</span>
+              <h3>Celebrating Our Teachers</h3>
+              <p>A day to say thank you to the teachers who guide, inspire, and believe in us.</p>
+            </div>
+          </article>
+          <article class="activity-card carousel-slide" tabindex="0" role="button" aria-label="Open photo: Thank You, Teachers">
+            <img src="assets/t5.jpg" alt="Teachers' Day photo 2" class="activity-image" />
+            <span class="slide-count">02 / 05</span>
+            <div class="activity-card-content">
+              <span class="activity-tag">Teachers' Day</span>
+              <h3>Thank You, Teachers</h3>
+              <p>Little gestures and big smiles for the people who shape our journey.</p>
+            </div>
+          </article>
+          <article class="activity-card carousel-slide" tabindex="0" role="button" aria-label="Open photo: Moments With Teachers">
+            <img src="assets/t1.jpg" alt="Teachers' Day photo 3" class="activity-image" />
+            <span class="slide-count">03 / 05</span>
+            <div class="activity-card-content">
+              <span class="activity-tag">Teachers' Day</span>
+              <h3>Moments With Teachers</h3>
+              <p>Sharing laughs and memories with the teachers who made learning meaningful.</p>
+            </div>
+          </article>
+          <article class="activity-card carousel-slide" tabindex="0" role="button" aria-label="Open photo: Together as One Class">
+            <img src="assets/t2.jpg" alt="Teachers' Day photo 4" class="activity-image" />
+            <span class="slide-count">04 / 05</span>
+            <div class="activity-card-content">
+              <span class="activity-tag">Teachers' Day</span>
+              <h3>Together as One Class</h3>
+              <p>Classmates and teachers coming together to make the day extra special.</p>
+            </div>
+          </article>
+          <article class="activity-card carousel-slide" tabindex="0" role="button" aria-label="Open photo: Grateful Hearts">
+            <img src="assets/t3.jpg" alt="Teachers' Day photo 5" class="activity-image" />
+            <span class="slide-count">05 / 05</span>
+            <div class="activity-card-content">
+              <span class="activity-tag">Teachers' Day</span>
+              <h3>Grateful Hearts</h3>
+              <p>Carrying home gratitude, lessons, and memories worth keeping.</p>
+            </div>
+          </article>
+          </div>
+        </div>
+        <button type="button" class="carousel-btn carousel-next" aria-label="Next slide">&#8250;</button>
+        <div class="carousel-dots" role="tablist" aria-label="Choose slide"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reflection Section -->
+  <section id="reflection" class="reflection section">
+    <span class="rf-deco rf-d1" aria-hidden="true">✿</span>
+    <span class="rf-deco rf-d2" aria-hidden="true">♡</span>
+    <span class="rf-deco rf-d3" aria-hidden="true">✦</span>
+    <span class="rf-deco rf-d4" aria-hidden="true">✿</span>
+    <span class="rf-deco rf-d5" aria-hidden="true">♡</span>
+    <div class="container">
+      <div class="section-label">✦ A Note From My Journey ✦</div>
+      <h2 class="section-title">Reflection</h2>
+      <p class="reflection-intro">A six-part look back at my time at Lucan — what happened, how it felt, and what it taught me.</p>
+
+      <div class="reflection-cards">
+
+        <article class="reflection-card fade-in" id="reflection-01">
+          <header class="reflection-head">
+            <span class="reflection-number">01</span>
+            <span class="reflection-kicker">The experience</span>
+            <h3>Description<span class="reflection-sub">What Happened?</span></h3>
+          </header>
+          <div class="reflection-layout">
+          <div class="reflection-copy">
+            <p>After graduating with a Bachelor of Arts in English Language Studies, I honestly thought I was finally done with school. I remember thinking that graduation was the end of my student life. But later, I realized that if I wanted to pursue teaching and become a Licensed Professional Teacher (LPT), I still needed to take the required professional education units because my bachelor&#x27;s degree was a non-board course.</p>
+            <p>My Lucan journey became more than that.</p>
+            <p>One of the things I will definitely remember is the amount of activities our teachers gave us. 😂 Sometimes, we were still trying to finish the first activity, and then suddenly, another activity was already given. There were moments when I would look at the clock and think, “Wait, I&#x27;m not even done with the first one yet!”</p>
+            <p>It definitely made me conscious about time, especially when I was not sure if I could finish everything within the assigned time. But eventually, I realized that those activities were also teaching me to work harder, manage my time, and challenge myself.</p>
+            <p>Another memorable part of my Lucan journey was meeting people who were much older than me. I am only 22, while some of the friends I made were already in their 30s and even 40s.</p>
+            <p>At first, I thought the age gap might make it difficult for us to connect. But surprisingly, we bonded so well that sometimes we completely forgot that there was a big age difference between us. We laughed together, talked about different things, helped each other, and simply enjoyed each other&#x27;s company.</p>
+            <p>That experience made me realize that the old saying is actually true:</p>
+            <blockquote class="reflection-quote">Age is just a number.</blockquote>
+            <p>I never thought that I would make friends from different age groups, but I am genuinely grateful that I did.</p>
+            <p>Another thing that challenged me was reporting in front of the class. I already know how to report and speak in front of people, but honestly, that does not mean I don&#x27;t get nervous. Of course I still do!</p>
+            <p>Sometimes I would think, “What if I mess up?” Especially because some of my classmates already have jobs and are only taking the units they need to get their teaching license. Compared to them, I sometimes felt like I was just a fresh graduate with confidence, willingness to learn, and a strong desire to do my best.</p>
+            <p>That thought could be nerve-wracking. But eventually, I realized that most of those worries were only in my head.</p>
+            <p>My classmates were actually friendly, kind, supportive, and funny. They made me feel comfortable, and I realized that I didn&#x27;t have to be afraid of them or compare myself to them.</p>
+          </div>
+          <div class="reflection-gallery reflection-gallery-3" aria-label="Photos for Description reflection">
+            <figure class="polaroid"><span class="tape"></span><img src="assets/1.jpg" alt="School activity photo 1" loading="lazy" decoding="async" /><figcaption>school days ✿</figcaption></figure>
+            <figure class="polaroid"><span class="tape"></span><img src="assets/ref2.jpg" alt="School activity photo 2" loading="lazy" decoding="async" /><figcaption>with my Teacher ✦</figcaption></figure>
+            <figure class="polaroid"><span class="tape"></span><img src="assets/ref3.jpg" alt="School activity photo 3" loading="lazy" decoding="async" /><figcaption>little moments ♡</figcaption></figure>
+          </div>
+          </div>
+        </article>
+
+        <article class="reflection-card fade-in" id="reflection-02">
+          <header class="reflection-head">
+            <span class="reflection-number">02</span>
+            <span class="reflection-kicker">My response</span>
+            <h3>Feelings<span class="reflection-sub">What Was I Thinking and Feeling?</span></h3>
+          </header>
+          <div class="reflection-layout">
+          <div class="reflection-copy">
+            <p>My Lucan journey came with a lot of emotions.</p>
+            <p>At first, I was excited because I knew that I was taking a step closer to becoming an LPT. But I was also nervous because I was entering a new environment with people who had different experiences from mine.</p>
+            <p>There were times when I felt pressured by the activities and deadlines. Sometimes I was still working on one task when another one was already waiting. It made me think, “How am I supposed to finish all of this?” 😅</p>
+            <p>But somehow, that pressure pushed me to work harder.</p>
+            <p>I also felt nervous during reporting. Even though I knew I could speak in front of people, there was always that little voice in my head saying, “What if you make a mistake?”</p>
+            <p>I think part of it came from comparing myself to my classmates. Some of them already had jobs and experience, while I was a fresh graduate trying to find my way into the teaching profession.</p>
+            <p>But as I got to know them, that nervousness slowly disappeared.</p>
+            <p>I realized that I did not need to compare myself to them. Everyone had their own story and their own reason for being at Lucan.</p>
+            <p>And I am especially grateful for the friendships I made. I never expected to become close with people much older than me, but they taught me that friendship does not really depend on age. What matters is how people treat and understand each other.</p>
+          </div>
+          <div class="reflection-gallery reflection-gallery-2" aria-label="Video and photo for Feelings reflection">
+            <figure class="polaroid video-card">
+              <span class="tape"></span>
+              <div class="video-frame">
+                <span class="video-rec" aria-hidden="true"><i></i>REC</span>
+                <video src="assets/vid2.mp4#t=0.1" controls playsinline preload="metadata" aria-label="Video from my Lucan journey"></video>
+                <button class="video-play" type="button" aria-label="Play video"><span>&#9654;</span></button>
+              </div>
+              <figcaption>press play &#9825;</figcaption>
+            </figure>
+            <figure class="polaroid"><span class="tape"></span><img src="assets/ref25.jpg" alt="A meaningful moment from the experience" loading="lazy" decoding="async" /><figcaption>school days ✿</figcaption></figure>
+          </div>
+          </div>
+        </article>
+
+        <article class="reflection-card fade-in" id="reflection-03">
+          <header class="reflection-head">
+            <span class="reflection-number">03</span>
+            <span class="reflection-kicker">Looking back</span>
+            <h3>Evaluation<span class="reflection-sub">What Was Good and Bad?</span></h3>
+          </header>
+          <div class="reflection-layout">
+          <div class="reflection-copy">
+            <p>There were definitely challenging parts of my Lucan experience. The deadlines, activities, reporting, and other requirements sometimes made me feel tired and pressured. There were moments when I questioned whether I could keep up.</p>
+            <p>But looking back, I think those challenges were actually good for me. The activities challenged me to work faster, think better, and push myself beyond what I thought I could do. The reporting activities helped me become more comfortable speaking in front of different people, and the challenges reminded me that if I really want to become a teacher, I need to be prepared for situations that will test my patience and confidence.</p>
+            <p>But the best part of Lucan was definitely the people. I am grateful that I met classmates from different age groups and backgrounds. Some of them already have careers and experiences that I can learn from, while I also had my own experiences to share.</p>
+            <p>What surprised me most was how easily we connected despite the age difference. We joked around, helped each other, and made the classroom environment feel lighter. Sometimes, I completely forgot that some of them were much older than me.</p>
+            <blockquote class="reflection-quote">People don&#x27;t have to be the same age to understand each other.</blockquote>
+            <p>That experience taught me something simple but meaningful, and it is one I will keep with me.</p>
+          </div>
+          <div class="reflection-gallery reflection-gallery-3" aria-label="Photos for Evaluation reflection">
+            <figure class="polaroid"><span class="tape"></span><img src="assets/ref31.jpg" alt="A positive part of the experience" loading="lazy" decoding="async" /><figcaption> ✿</figcaption></figure>
+            <figure class="polaroid"><span class="tape"></span><img src="assets/ref32.jpg" alt="A shared experience with classmates" loading="lazy" decoding="async" /><figcaption> ♡</figcaption></figure>
+            <figure class="polaroid"><span class="tape"></span><img src="assets/ref33.jpg" alt="A moment that helped me learn" loading="lazy" decoding="async" /><figcaption> ✦</figcaption></figure>
+          </div>
+          </div>
+        </article>
+
+        <article class="reflection-card fade-in" id="reflection-04">
+          <header class="reflection-head">
+            <span class="reflection-number">04</span>
+            <span class="reflection-kicker">Finding meaning</span>
+            <h3>Analysis<span class="reflection-sub">What Sense Can I Make of the Situation?</span></h3>
+          </header>
+          <div class="reflection-layout">
+          <div class="reflection-copy">
+            <p>When I look back at my Lucan journey, I realize that I learned much more than the lessons written in our modules. I learned about people, confidence, humility, patience, and professionalism.</p>
+            <p>Before Lucan, I thought professionalism was mostly about being knowledgeable, prepared, and responsible. But my experiences with my classmates and teachers helped me understand that professionalism also includes being humble.</p>
+            <p>I met people who already had jobs and years of experience, yet they were still kind, approachable, funny, and willing to learn. That really made an impression on me.</p>
+            <p>It made me realize that being knowledgeable does not mean you have to make other people feel that you are better than them. In fact, true professionalism can be seen in how a person treats others.</p>
+            <p>I also learned that confidence and humility can exist together. I can be confident in what I know while still being humble enough to listen, learn, ask questions, and accept that there are things I do not know yet. My classmates taught me this without even realizing it.</p>
+            <p>The age difference also taught me something important. I used to think that having a large age gap might make friendship difficult. But my experience proved otherwise. We connected naturally, and eventually, the age difference didn&#x27;t matter anymore. That is why I can honestly say that “age is just a number.”</p>
+            <blockquote class="reflection-quote">It is about continuously learning and becoming better than who I was yesterday.</blockquote>
+            <p>Most importantly, Lucan made me realize that my journey toward becoming a teacher is not about proving that I am better than anyone else.</p>
+          </div>
+          <div class="reflection-gallery reflection-gallery-2" aria-label="Photos for Analysis reflection">
+            <figure class="polaroid"><span class="tape"></span><img src="assets/ref42.jpg" alt="A learning moment from the experience" loading="lazy" decoding="async" /><figcaption>with my classmates ✿</figcaption></figure>
+            <figure class="polaroid"><span class="tape"></span><img src="assets/ref45.jpg" alt="A moment of teamwork and reflection" loading="lazy" decoding="async" /><figcaption>with my classmates ♡</figcaption></figure>
+          </div>
+          </div>
+        </article>
+
+        <article class="reflection-card fade-in" id="reflection-05">
+          <header class="reflection-head">
+            <span class="reflection-number">05</span>
+            <span class="reflection-kicker">Moving forward</span>
+            <h3>Conclusion and Action Plan<span class="reflection-sub">What Could I Have Done Differently?</span></h3>
+          </header>
+          <div class="reflection-layout">
+          <div class="reflection-copy">
+            <p>If I could go back to the beginning of my Lucan journey, I would tell myself:</p>
+            <blockquote class="reflection-quote">Relax. You don&#x27;t have to be afraid of everyone. Just be yourself, do your best, and be willing to learn.</blockquote>
+            <p>I spent some time worrying about whether I could keep up with my classmates, especially those who already had jobs and more experience. But I eventually realized that I didn&#x27;t need to compete with them. I only needed to focus on my own growth.</p>
+            <p>I could also have managed my time better, especially when we had multiple activities and deadlines. Instead of worrying about whether I could finish everything, I could have simply started working and trusted myself to get it done.</p>
+            <p>Moving forward, I want to carry all these lessons with me. I want to become more organized, improve my time management, become more confident when speaking in front of others, and continue learning from the people around me.</p>
+            <p>Most importantly, I want to remain humble. I want to remember that no matter how much knowledge I gain or whatever title I may eventually have after my name, I should never stop being willing to learn from others.</p>
+          </div>
+          <div class="reflection-gallery reflection-gallery-3" aria-label="Photos for Conclusion and Action Plan reflection">
+            <figure class="polaroid"><span class="tape"></span><img src="assets/5ref1.jpg" alt="A moment that inspires me to prepare" loading="lazy" decoding="async" /><figcaption> ✿</figcaption></figure>
+            <figure class="polaroid"><span class="tape"></span><img src="assets/5ref2.jpg" alt="A step forward in my learning journey" loading="lazy" decoding="async" /><figcaption> ♡</figcaption></figure>
+            <figure class="polaroid"><span class="tape"></span><img src="assets/5ref3.jpg" alt="A memory that motivates future goals" loading="lazy" decoding="async" /><figcaption> ✦</figcaption></figure>
+          </div>
+          </div>
+        </article>
+
+        <article class="reflection-card fade-in" id="reflection-06">
+          <header class="reflection-head">
+            <span class="reflection-number">06</span>
+            <span class="reflection-kicker">What I’ll carry with me</span>
+            <h3>Conclusion</h3>
+          </header>
+          <div class="reflection-layout">
+          <div class="reflection-copy">
+            <p>My Lucan journey started with a simple goal: to complete the education units I need so I can pursue my dream of becoming an LPT. But along the way, it became so much more.</p>
+            <p>I learned from my teachers. I was challenged by activities and deadlines. I became nervous during reports but learned to trust myself. I met people much older than me and unexpectedly made genuine friendships with them. I learned that age does not define friendship, experience does not make someone better than another person, and confidence becomes more meaningful when it comes with humility.</p>
+            <p>I came to Lucan thinking I was only going to gain units and knowledge about education. But I am leaving the experience with something more valuable:</p>
+            <blockquote class="reflection-quote">Lessons about people, friendship, confidence, humility, and professionalism.</blockquote>
+            <p>And maybe that is what makes this journey worth remembering.</p>
+            <p>I may have started as a fresh graduate who was simply trying to find her way toward becoming a teacher, but Lucan is helping me become more than just a teacher who knows what to teach—it is helping me become a teacher who knows how to treat people. </p>
+          </div>
+          <div class="reflection-gallery reflection-gallery-2" aria-label="Photos for Conclusion reflection">
+            <figure class="polaroid"><span class="tape"></span><img src="assets/ref61.jpg" alt="A favorite memory from my journey" loading="lazy" decoding="async" /><figcaption> ✿</figcaption></figure>
+            <figure class="polaroid"><span class="tape"></span><img src="assets/ref62.jpg" alt="A hopeful moment looking ahead" loading="lazy" decoding="async" /><figcaption> ♡</figcaption></figure>
+          </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photos Section -->
+  <section id="photos" class="portfolio section">
+    <div class="container">
+      <div class="section-label">✦ My Moments ✦</div>
+      <h2 class="section-title">Photos</h2>
+
+      <div class="portfolio-grid" id="portfolio-grid">
+        <!-- Manually add photo images here -->
+        <div class="portfolio-card fade-in">
+          <div class="portfolio-img">
+            <img src="assets/1.jpg" alt="Photo 1" />
+          </div>
+        </div>
+        <div class="portfolio-card fade-in">
+          <div class="portfolio-img">
+            <img src="assets/2.jpg" alt="Photo 2" />
+          </div>
+        </div>
+        <div class="portfolio-card fade-in">
+          <div class="portfolio-img">
+            <img src="assets/3.jpg" alt="Photo 3" />
+          </div>
+        </div>
+        <div class="portfolio-card fade-in">
+          <div class="portfolio-img">
+            <img src="assets/4.jpg" alt="Photo 4" />
+          </div>
+        </div>
+        <div class="portfolio-card fade-in">
+          <div class="portfolio-img">
+            <img src="assets/5.jpg" alt="Photo 5" />
+          </div>
+        </div>
+        <div class="portfolio-card fade-in">
+          <div class="portfolio-img">
+            <img src="assets/6.jpg" alt="Photo 6" />
+          </div>
+        </div>
+        
+        <div class="portfolio-card fade-in hidden">
+          <div class="portfolio-img">
+            <img src="assets/7.jpg" alt="Photo 7" />
+          </div>
+        </div>
+        <div class="portfolio-card fade-in hidden">
+          <div class="portfolio-img">
+            <img src="assets/8.jpg" alt="Photo 8" />
+          </div>
+        </div>
+        <div class="portfolio-card fade-in hidden">
+          <div class="portfolio-img">
+            <img src="assets/9.jpg" alt="Photo 9" />
+          </div>
+        </div>
+
+        <div class="portfolio-card fade-in hidden">
+          <div class="portfolio-img">
+            <img src="assets/10.jpg" alt="Photo 10" />
+          </div>
+        </div>
+        <div class="portfolio-card fade-in hidden">
+          <div class="portfolio-img">
+            <img src="assets/11.jpg" alt="Photo 11" />
+          </div>
+        </div>
+        <div class="portfolio-card fade-in hidden">
+          <div class="portfolio-img">
+            <img src="assets/12.jpg" alt="Photo 12" />
+          </div>
+        </div>
+
+        <div class="portfolio-card fade-in hidden">
+          <div class="portfolio-img">
+            <img src="assets/13.jpg" alt="Photo 13" />
+          </div>
+        </div>
+        <div class="portfolio-card fade-in hidden">
+          <div class="portfolio-img">
+            <img src="assets/14.jpg" alt="Photo 14" />
+          </div>
+        </div>
+        <div class="portfolio-card fade-in hidden">
+          <div class="portfolio-img">
+            <img src="assets/15.jpg" alt="Photo 15" />
+          </div>
+        </div>
+
+         <div class="portfolio-card fade-in hidden">
+          <div class="portfolio-img">
+            <img src="assets/16.jpg" alt="Photo 16" />
+          </div>
+        </div>
+        <div class="portfolio-card fade-in hidden">
+          <div class="portfolio-img">
+            <img src="assets/19.jpg" alt="Photo 17" />
+          </div>
+        </div>
+        <div class="portfolio-card fade-in hidden">
+          <div class="portfolio-img">
+            <img src="assets/18.jpg" alt="Photo 18" />
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-toggle" style="margin-top: 1.5rem; text-align: center;">
+        <button type="button" class="btn-outline portfolio-toggle-btn" aria-expanded="false">More Photos</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <span class="logo-icon">✿</span> Arlene Jane
+      </div>
+      <p class="footer-tagline">All about makeups.</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+      </div>
+      <p class="footer-copy">© 2026 Arlene Jane. All rights reserved. Made with ♡ in Lucan.</p>
+    </div>
+  </footer>
+
+  <!-- Photo Modal -->
+  <div id="photo-modal" class="modal">
+    <span class="close-modal" id="close-modal">&times;</span>
+    <img class="modal-content" id="modal-img" />
+    <div class="modal-caption" id="modal-caption" aria-live="polite">
+      <span class="modal-caption-tag" id="modal-caption-tag"></span>
+      <h2 id="modal-caption-title"></h2>
+      <p id="modal-caption-text"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
